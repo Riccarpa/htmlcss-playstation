@@ -28,7 +28,17 @@
 
 .hero {
     height: 70vh;
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
+}
+
+.hero img {
+    width: 50%;
+}
+
+@media screen and (min-width:1200px) {
+    .hero .returnal {
+        width: 50%;
+    }
 }
