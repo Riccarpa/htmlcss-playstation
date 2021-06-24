@@ -1,0 +1,16 @@
+/* utils */
+
+.semi-bold {
+    font-weight: 600;
+}
+
+
+/* header */
+
+.header-top {
+    height: 50px;
+}
+
+.header-top img {
+    width: 15%;
+}
