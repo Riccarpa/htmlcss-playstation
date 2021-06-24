@@ -7,10 +7,28 @@
 
 /* header */
 
+[alt*=logo] {
+    width: 60px;
+    height: auto;
+}
+
 .header-top {
     height: 50px;
 }
 
 .header-top img {
     width: 15%;
+}
+
+
+/* main */
+
+
+/* first hero */
+
+.hero {
+    height: 70vh;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: center;
 }
