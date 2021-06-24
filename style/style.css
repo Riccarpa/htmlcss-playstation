@@ -7,11 +7,6 @@
 
 /* header */
 
-[alt*=logo] {
-    width: 60px;
-    height: auto;
-}
-
 .header-top {
     height: 50px;
 }
@@ -31,6 +26,7 @@
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
+    margin-top: 125px;
 }
 
 .hero img {
