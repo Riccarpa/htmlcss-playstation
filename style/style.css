@@ -5,7 +5,20 @@
 }
 
 
+/* body */
+
+body {
+    font-size: 1.25rem;
+}
+
+
 /* header */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 .header-top {
     height: 50px;
@@ -13,6 +26,7 @@
 
 .header-top img {
     width: 15%;
+    height: auto;
 }
 
 
@@ -34,7 +48,7 @@
 }
 
 @media screen and (min-width:1200px) {
-    .hero .returnal {
+    .hero .content {
         width: 50%;
     }
 }
@@ -42,8 +56,15 @@
 
 /* section ps5 */
 
+.ps5 p {
+    color: gray;
+}
+
 .photo-list h3 {
     display: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 @media screen and (min-width:768px) {
@@ -54,4 +75,30 @@
     .photo-list h3 {
         display: block;
     }
+}
+
+
+/* hero 2 */
+
+.hero-mid {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+
+/* new releases */
+
+.new {
+    background-color: rgb(46, 45, 45);
+}
+
+
+/* .new img {
+    width: 80%;
+    height: auto;
+} */
+
+.new h3 {
+    text-align: left;
+    font-size: 1rem;
+    ;
 }
