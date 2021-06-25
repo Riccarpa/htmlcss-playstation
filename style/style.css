@@ -147,3 +147,30 @@ header {
         display: flex;
     }
 }
+
+
+/* footer */
+
+footer {
+    background-color: #00439C;
+}
+
+[alt="f-logo"] {
+    width: 100px;
+    height: auto;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+    .list {
+        display: flex;
+    }
+}
