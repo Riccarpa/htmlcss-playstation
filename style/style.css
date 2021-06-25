@@ -122,3 +122,28 @@ header {
         display: flex;
     }
 }
+
+
+/* ps now */
+
+.ps-now {
+    background-color: rgb(2, 31, 121);
+}
+
+.ps-now .row img {
+    width: 50%;
+}
+
+.ps-now .season img {
+    width: 100%;
+}
+
+.season {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .season {
+        display: flex;
+    }
+}
