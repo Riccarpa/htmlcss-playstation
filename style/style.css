@@ -97,3 +97,28 @@ header {
     font-size: 1rem;
     ;
 }
+
+
+/* ps plus */
+
+.ps-plus {
+    background-color: rgb(161, 172, 204);
+}
+
+.ps-plus .row img {
+    width: 50%;
+}
+
+.ps-plus .season img {
+    width: 100%;
+}
+
+.season {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .season {
+        display: flex;
+    }
+}
