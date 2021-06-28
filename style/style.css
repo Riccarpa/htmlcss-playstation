@@ -46,6 +46,32 @@ header a:hover {
     opacity: 0.5;
 }
 
+.hide {
+    width: 100vw;
+    display: none;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.my-psn {
+    cursor: pointer;
+}
+
+.my-psn:hover {
+    opacity: 0.5;
+}
+
+.my-psn:active {
+    opacity: 1;
+}
+
+.my-psn:active .hide {
+    display: flex;
+}
+
 
 /* main */
 
@@ -76,6 +102,10 @@ header a:hover {
 
 #it-takes {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#it-takes img {
+    width: 50%;
 }
 
 
@@ -126,6 +156,14 @@ header a:hover {
     text-align: left;
     font-size: 1rem;
     ;
+}
+
+.new .row div {
+    transition: transform 1s;
+}
+
+.new .row div:hover {
+    transform: translateY(-5%);
 }
 
 
